@@ -1,0 +1,91 @@
+.chat-card {
+    max-width: 400px;
+    margin-bottom: 8px;
+}
+
+.mat-card-content{
+    word-wrap: break-word;
+}
+
+mat-grid-tile {
+    background: white;
+}
+
+.example-list-wrapping {
+    max-width: 500px;
+  }
+
+.example-list-wrapping .mat-list-item {
+    white-space: normal;
+    word-wrap: break-word;
+    height: auto;
+}
+
+.chat-container {
+    width: 100%;
+    height: 600px;
+    border: 1px solid white;
+    border-left: none;
+    border-right: none;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-header {
+    text-align: center;
+    padding: 5px;
+    background: rgb(113, 40, 230);
+}
+
+.app-title {
+    color: white;
+}
+
+.chat-messages {
+    left: 5%;
+    padding: 10px;
+}
+
+.chat-input {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    background: white;
+    left: 20%;
+}
+
+#messageInput {
+    width: 90%;
+    padding: 5px;
+}
+
+#messageForm button {
+    width: 11%;
+    padding: 5px;
+    margin-left: 1%;
+}
+
+.example-full-width {
+    width: 40%;
+  }
+
+
+.center {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+}
+
+.ollama-wrap {
+    border-radius: 6px;
+    background-color: aliceblue;
+    border: 2px dashed gray;
+    max-width: 70%;
+    padding: 1em;
+    margin-bottom: .4em;
+}
